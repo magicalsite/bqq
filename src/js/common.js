@@ -44,12 +44,12 @@ $(document).ready(function () {
     contain: true
   });
 
-  $(document).on("click", ".menu_close", function (e) {
+  $('.menu_close').on("click", function (e) {
     e.preventDefault();
     $(".mobile_menu_container").css("display", "none");
     $(".mobile_menu_overlay").css("display", "none");
   });
-  $(document).on("click", ".mobile_menu", function (e) {
+  $('.mobile_menu').on("click", function (e) {
     e.preventDefault();
     $(".mobile_menu_container").css("display", "block");
     $(".mobile_menu_overlay").css("display", "block");

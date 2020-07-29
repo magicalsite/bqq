@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]><html class="no-js old-ie" lang="ru"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="ru">
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>BQQ.BY - Гриль</title>
+  <!--Mobile optimized-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <!--Theme color-->
+  <meta name="theme-color" content="#fff">
+  <!--SEO-->
+  <meta name="description" content="BQQ.BY - Гриль">
+  <meta name="keywords" content="BQQ.BY, Гриль">
+  <meta name="yandex-verification" content="XXXXXXXXXXXXXX">
+  <meta name="google-site-verification" content="XXXXXXXXXXXXXX">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.ico?rev=@@hash">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico?rev=@@hash">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?rev=@@hash">
+  <!--manifest-->
+  <link rel="manifest" href="manifest.webmanifest">
+  <!--Style-->
+  <link rel="stylesheet" href="css/libs.min.css?rev=@@hash">
+  <link rel="stylesheet" href="css/main.css?rev=@@hash">
+  <!--Modernizr-->
+  <script src="js/modernizr.min.js"></script>
+</head>
+
+<body>
+  <noscript>
+    <div class="no-js-warning">Для корректной работы сайта <b>включите JavaScript</b> в браузере</div>
+  </noscript>
+  <!--[if lte IE 9]>
+<div class="browserupgrade"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p></div> <![endif]-->
+  <!-- <div class="p-preloader js-p-preloader">
+  <div class="p-preloader__content">
+    <div class="p-preloader__logo"></div>
+  </div>
+</div> -->
+  <!--HEADER-->
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo logo">
+          <a href="/"><img src="./img/logo.svg" alt="Logotype"></a>
+        </div>
+        <div class="header__right">
+          <div class="header__menu menu">
+            <nav>
+              <ul class="menu__items">
+                <li class="menu__item active"><a href="#">Меню</a></li>
+                <li class="menu__item"><a href="#">Акции</a></li>
+                <li class="menu__item"><a href="#">Как заказать</a></li>
+                <li class="menu__item"><a href="#">Условия оплаты и доставки</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__tel tel">
+            <a class="tel__number" href="tel:4434">
+              <img src="./img/service.svg" alt="Telephone number">4434
+            </a>
+          </div>
+          <div class="header__menu-btn">
+            <button class="mobile_menu"><img src="./img/burger_menu.svg" alt="Button open menu"></button>
+          </div>
+          <div class="header__btn">
+            <a href="#" class="login__btn login">вход</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_menu_container">
+      <div class="menu_close"><svg id="menu_close" width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M42.4264 14.1421C34.6287 6.34438 21.9405 6.34384 14.1422 14.1421C6.34387 21.9404 6.34441 34.6286 14.1422 42.4264C21.9399 50.2242 34.6281 50.2247 42.4264 42.4264C50.2247 34.6281 50.2242 21.9399 42.4264 14.1421ZM33.9955 36.1712L28.2843 30.46L22.3011 36.4432C21.7006 37.0437 20.7259 37.0437 20.1254 36.4432C19.5249 35.8427 19.5249 34.868 20.1254 34.2675L26.1086 28.2843L20.3973 22.573C19.7968 21.9725 19.7968 20.9978 20.3973 20.3973C20.9978 19.7968 21.9726 19.7968 22.5731 20.3973L28.2843 26.1086L33.7236 20.6693C34.3241 20.0688 35.2988 20.0688 35.8993 20.6693C36.4998 21.2698 36.4998 22.2445 35.8993 22.845L30.46 28.2843L36.1713 33.9955C36.7718 34.596 36.7718 35.5707 36.1713 36.1712C35.5708 36.7717 34.596 36.7717 33.9955 36.1712Z" fill="#C4C4C4" />
+        </svg>
+      </div>
+      <div class="mobile_menu_content">
+        <div class="mob_login">
+          <a href="#" class="login__btn login">вход</a>
+        </div>
+        <div class="hr"></div>
+        <ul>
+          <li><a href="#">Меню</a></li>
+          <li><a href="#">Акции</a></li>
+          <li><a href="#">Как заказать</a></li>
+          <li><a href="#">Условия оплаты и доставки</a></li>
+        </ul>
+        <div class="hr"></div>
+        <div class="phone_menu">
+          <span><span>Телефон:</span> <a href="tel:+4434" class="number">4434</a> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.9789 10.2862C23.9789 4.60753 19.3763 0 13.6927 0C10.2248 0 7.1531 1.71682 5.29443 4.3483L6.07703 5.13089C7.73026 2.69017 10.5231 1.09074 13.6927 1.09074C18.7697 1.09074 22.8882 5.20915 22.8882 10.2862C22.8882 13.4509 21.2887 16.2389 18.8578 17.8921L19.6404 18.6747C22.267 16.816 23.9789 13.7492 23.9789 10.2862Z" fill="#FF734C" />
+              <path d="M16.3682 16.9335C15.6834 16.2487 14.5633 16.1753 13.8394 16.821C12.5971 18.0633 12.1862 17.9019 11.7313 17.4275L6.54173 12.277C6.06728 11.8026 5.90587 11.4113 7.14824 10.1689C7.79388 9.445 7.72051 8.32491 7.03574 7.64014L4.11079 4.69562C3.42602 4.01085 2.3255 3.93748 1.6016 4.56356C-0.873363 6.79396 -0.305981 12.0716 2.35973 14.5416L9.50581 21.6877C11.9123 24.2409 17.0285 24.9502 19.4252 22.4312C20.0513 21.7073 19.9779 20.6068 19.2931 19.922L16.3682 16.9335Z" fill="#FF734C" />
+              <path d="M13.4922 12.8491H9.98518C9.64769 12.8491 9.37378 12.5752 9.37378 12.2377C9.37378 11.0296 12.2987 8.74049 12.4552 8.60843C12.6118 8.42745 12.6949 8.20246 12.6949 7.96279C12.6949 7.41986 12.2498 6.97476 11.7069 6.97476C11.164 6.97476 10.7189 7.41986 10.7189 7.96279C10.7189 8.30028 10.445 8.57419 10.1075 8.57419C9.76997 8.57419 9.49606 8.30028 9.49606 7.96279C9.49606 6.74487 10.489 5.75195 11.7069 5.75195C12.9248 5.75195 13.9177 6.74487 13.9177 7.96279C13.9177 8.52528 13.7074 9.05842 13.3259 9.46928C13.3063 9.48885 13.2867 9.50841 13.2672 9.52798C12.3868 10.2519 11.5406 11.0589 11.0417 11.6263H13.4922C13.8297 11.6263 14.1036 11.9002 14.1036 12.2377C14.1036 12.5752 13.8297 12.8491 13.4922 12.8491Z" fill="#FF734C" />
+              <path d="M18.0116 12.9371C17.6741 12.9371 17.4002 12.6632 17.4002 12.3257V11.5383H14.8568C14.6318 11.5383 14.4215 11.4111 14.3139 11.2105C14.2063 11.01 14.2209 10.7654 14.353 10.5796L17.5078 6.01607C17.6595 5.79596 17.9383 5.70303 18.1926 5.78129C18.4469 5.85955 18.623 6.09922 18.623 6.36334V10.3155H19.3225C19.66 10.3155 19.9339 10.5894 19.9339 10.9269C19.9339 11.2643 19.66 11.5383 19.3225 11.5383H18.623V12.3257C18.623 12.6632 18.3491 12.9371 18.0116 12.9371ZM16.0209 10.3155H17.4002V8.32472L16.0209 10.3155Z" fill="#FF734C" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_menu_overlay"></div>
+  </header>
+  <!--HEADER end-->
+  <!-- main slider -->
+  <div class="slider-block">
+    <div class="slider-main">
+      <div class="slider-item">
+        <div>
+          <picture>
+            <source srcset="./img/slider__item-mobile.jpg" media="(max-width: 768px)">
+            <img src="./img/slider__item-first.jpg" alt="Slider image">
+          </picture>
+        </div>
+        <div class="slider-block__info info">
+          <h2 class="info__title">Шашлык армянский</h2>
+          <p class="info__paragraph">Великолепный сочный горячий армянский шашлык с гарниром из овощей на гриле</p>
+          <a href="#" class="button info__button">Выбрать</a>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div>
+          <picture>
+            <source srcset="./img/slider__item-mobile.jpg" media="(max-width: 768px)">
+            <img src="./img/slider__item-first.jpg" alt="Slider image">
+          </picture>
+        </div>
+        <div class="slider-block__info info">
+          <h2 class="info__title">Шашлык армянский</h2>
+          <p class="info__paragraph">Великолепный сочный горячий армянский шашлык с гарниром из овощей на гриле</p>
+          <button class="button info__button">Выбрать</button>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div>
+          <picture>
+            <source srcset="./img/slider__item-mobile.jpg" media="(max-width: 768px)">
+            <img src="./img/slider__item-first.jpg" alt="Slider image">
+          </picture>
+        </div>
+        <div class="slider-block__info info">
+          <h2 class="info__title">Шашлык армянский</h2>
+          <p class="info__paragraph">Великолепный сочный горячий армянский шашлык с гарниром из овощей на гриле</p>
+          <button class="button info__button">Выбрать</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="slick-arrow"></div>
+    </div>
+  </div>
+  <!-- category -->
+  <div class="dishes">
+    <a href="#kebab" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">шашлык <br> из свинины</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">шашлык <br> из баранины</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">шашлык <br>
+        из курицы</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">Caлаты</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">Caлаты</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">напитки</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">Caлаты</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">гарниры</div>
+    </a>
+    <a href="#" class="dishes__item menu-dishes">
+      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+      <div class="menu-dishes__title">соусы</div>
+    </a>
+  </div>
+  <!-- point and basket -->
+  <div class="points">
+    <div class="container center-block">
+      <div class="center-block__cards">
+        <div class="salads">
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice1">
+                  <label for="card__choice1">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <!-- crossed out price -->
+                    <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
+                    <!-- notcrossed out price -->
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice2">
+                  <label for="card__choice2">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice3">
+                  <label for="card__choice3">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <!-- crossed out price -->
+                    <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
+                    <!-- notcrossed out price -->
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice4">
+                  <label for="card__choice4">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice5">
+                  <label for="card__choice5">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice6">
+                  <label for="card__choice6">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="kebab" id="kebab">
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice7">
+                  <label for="card__choice7">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+              <img src="./img/img__food.png" alt="Image with food">
+            </div>
+            <div class="card__block">
+              <div>
+                <div class="card__info">
+                  <h3 class="card__title">Шашлык из свинины
+                    с гарниром</h3>
+                  <span class="card__people"><img src="./img/people.svg" alt="">2-3</span>
+                </div>
+                <div class="card__decription">
+                  Свинина (шейная часть), соус “Гриль”, лук, овощной гарнир
+                </div>
+                <div class="card__size-price">
+                  <div class="card__size">
+                    800 / 200 / 100
+                  </div>
+                  <div class="card__price price">
+                    <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card__choice">
+                  <input type="checkbox" name="card__choice" id="card__choice8">
+                  <label for="card__choice8">Без лука</label>
+                </div>
+                <div class="card__number">
+                  <button class="card__number-btn card__number-minus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11H8V12.2H16V11Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total">1</div>
+                  <button class="card__number-btn card__number-plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" rx="12" fill="#FF734C" />
+                      <path d="M16 11.619H12.381V8H11.619V11.619H8V12.381H11.619V16H12.381V12.381H16V11.619Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center-block__basket">
+        <div class="basket">
+          <div class="basket__title">
+            Корзина (<span class="basket__count">3</span>)
+          </div>
+          <div class="basket__block">
+            <div class="basket__point point">
+              <button class="point__delete">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                </svg>
+              </button>
+              <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+              <div class="point__info-price">
+                <div class="card__number point__number">
+                  <button class="card__number-btn card__number-minus point__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="16" rx="8" fill="#FF734C" />
+                      <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total point__total">10</div>
+                  <button class="card__number-btn card__number-plus point__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="16" rx="8" fill="#FF734C" />
+                      <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="card__price price basket__price">
+                  <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
+                  <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__point point">
+              <button class="point__delete">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                </svg>
+              </button>
+              <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+              <p class="point__extra">- лук</p>
+              <div class="point__info-price">
+                <div class="card__number point__number">
+                  <button class="card__number-btn card__number-minus point__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="16" rx="8" fill="#FF734C" />
+                      <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total point__total">10</div>
+                  <button class="card__number-btn card__number-plus point__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="16" rx="8" fill="#FF734C" />
+                      <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="card__price price basket__price">
+                  <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__point point">
+              <button class="point__delete">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                </svg>
+              </button>
+              <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+              <div class="point__info-price">
+                <div class="card__number point__number">
+                  <button class="card__number-btn card__number-minus point__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="16" rx="8" fill="#FF734C" />
+                      <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                    </svg>
+                  </button>
+                  <div class="card__number-total point__total">10</div>
+                  <button class="card__number-btn card__number-plus point__button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="16" rx="8" fill="#FF734C" />
+                      <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="card__price price basket__price">
+                  <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="basket__line"></div>
+          <div class="basket__sum"><span class="basket__discount-text">Сумма заказа</span><span>38.70
+              <span>BYN</span></span>
+          </div>
+          <div class="basket__discount"><span class="basket__discount-text">Скидка</span><span>38.70
+              <span>BYN</span></span></div>
+          <div class="basket__result"><span class="basket__result-text">итого</span><span>38.70 <span>BYN</span></span>
+          </div>
+          <a href="#" class="basket__button button">Оформить заказ</a>
+          <button class="basket__clear">Очистить корзину</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about company -->
+  <div class="info-company">
+    <div class="container">
+      <div class="about-company">
+        <h2 class="about-company__title">О компании</h2>
+        <div class="about-company__paragraph">
+          <p>Хотите. быстро подкрепиться в офисе или устроить лучший романтический вечер со
+            второй половинкой? Для этого
+            просто оформите заказ пиццы из ресторана в Минске.</p>
+          <p>Мы найдем путь к сердцу каждого гурмана. Любителям необычных сочетаний придется по вкусу «Гавайская» с
+            ананасом
+            и ветчиной, а «Мясное удовольствие» понравится людям, обожающим сырокопченые колбаски, ароматный бекон и
+            свинину.</p>
+          <p>Творческим личностям, открытым для всего нового, стоит попробовать вкусную пиццу по собственному рецепту. При
+            этом вам не придется идти на кухню. Достаточно воспользоваться онлайн-конструктором на сайте. Если вы еще не
+            готовы к смелым экспериментам, измените ингредиенты в блюдах из меню.</p>
+          <p>Несколько слов о составе нашей пиццы… <br>
+            Главным секретом вкуса наших блюд являются качественные ингредиенты. Каждый из них соответствует требованиям
+            Золотого стандарта. У нас вы сможете заказать пиццу, каждый компонент которой прошел тщательную
+            многоступенчатую
+            проверку. Она проводится на региональном, федеральном и международном уровне.
+          </p>
+        </div>
+        <button class="about-company__more">Подробнее...</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-menu">
+    <div class="container">
+      <div class="menu">
+        <nav>
+          <ul class="menu__items footer-menu__items">
+            <li class="menu__item"><a href="#">Меню</a></li>
+            <li class="menu__item"><a href="#">Акции</a></li>
+            <li class="menu__item"><a href="#">Как заказать</a></li>
+            <li class="menu__item"><a href="#">Условия оплаты и доставки</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- additional widgets -->
+  <!-- fixed basket -->
+  <a href="#" class="mobile-basket">
+    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="28" cy="28" r="28" fill="url(#paint0_linear)" />
+      <path d="M24.1563 38.7052C25.2825 38.7052 26.1954 37.7923 26.1954 36.6661C26.1954 35.5399 25.2825 34.627 24.1563 34.627C23.0302 34.627 22.1172 35.5399 22.1172 36.6661C22.1172 37.7923 23.0302 38.7052 24.1563 38.7052Z" fill="white" />
+      <path d="M32.3126 38.7052C33.4388 38.7052 34.3517 37.7923 34.3517 36.6661C34.3517 35.5399 33.4388 34.627 32.3126 34.627C31.1864 34.627 30.2735 35.5399 30.2735 36.6661C30.2735 37.7923 31.1864 38.7052 32.3126 38.7052Z" fill="white" />
+      <path d="M20.0781 17.2948H16V19.3339H20.0781V17.2948Z" fill="white" />
+      <path d="M21.689 21.373L21.0977 17.2949H20.0781L19.0586 17.4376L21.2302 32.588H35.0144L40 21.373H21.689V21.373ZM33.689 30.5489H23.0042L21.9847 23.4121H36.8598L33.689 30.5489Z" fill="white" />
+      <path d="M37.75 22.75H21.25L22.75 31H34L37.75 22.75Z" fill="white" />
+      <defs>
+        <linearGradient id="paint0_linear" x1="28" y1="0" x2="28" y2="56" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FF734C" />
+          <stop offset="1" stop-color="#FF481B" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="mobile-basket__price">
+      30.00 BYN
+    </div>
+  </a>
+  <!--FOOTER-->
+  <footer class="">
+  </footer>
+  <!--FOOTER end-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/common.js?rev=@@hash"></script>
+</body>
+
+</html>

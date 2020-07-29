@@ -1,0 +1,20 @@
+@import "../utils/mixins";
+
+// =============================================================================
+// Google Fonts
+// =============================================================================
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+// Gilroy
+// ----------------------------------------------------
+@include font-face("gilroy-regular", "../fonts/Gilroy/Gilroy-Regular", normal, normal, woff);
+@include font-face("gilroy-bold", "../fonts/Gilroy/Gilroy-Bold", bold, normal, woff);
+
+// GothamPro
+// ----------------------------------------------------
+@include font-face("gothamPro-regular", "../fonts/GothamPro/GothamPro", normal, normal, woff);
+@include font-face("gothamPro-bold", "../fonts/GothamPro/GothamPro-Bold", bold, normal, woff);

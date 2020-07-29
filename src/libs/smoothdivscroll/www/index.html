@@ -1,0 +1,69 @@
+<!doctype html><html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/smoothDivScroll.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+<script src="jss/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+<!-- <script src="jss/jquery.mousewheel.min.js" type="text/javascript"></script> -->
+<script src="jss/jquery.kinetic.js" type="text/javascript"></script>
+<script src="jss/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="makeMeScrollable">
+	<div class="part">
+		<img src="img/1.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/2.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/3.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/4.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/5.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/6.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/7.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/8.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/9.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/10.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/11.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/12.jpg" class="photo">
+	</div>
+	<div class="part">
+		<img src="img/13.jpg" class="photo">
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function (){
+		$("div#makeMeScrollable").smoothDivScroll({
+			mousewheelScrolling: "allDirections",
+			manualContinuousScrolling: false,
+			touchScrolling:true,
+			visibleHotSpotBackgrounds:"always",
+		});	
+	});
+</script>
+</body>
+</html>

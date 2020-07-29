@@ -1,0 +1,16 @@
+body{
+font:14px Arial,Verdana,sans-serif;}
+
+a{outline:none;}
+img{border:none;}
+
+#makeMeScrollable{
+width:700px;
+margin:0 auto;
+display:block;
+position:relative;
+height:200px;}
+
+.part{
+display:inline-block;
+width:267px; height:200px;}

@@ -44,7 +44,7 @@ $(document).ready(function () {
     contain: true
   });
 
-  $(document).on("click", "#menu_close", function (e) {
+  $(document).on("click", ".menu_close", function (e) {
     e.preventDefault();
     $(".mobile_menu_container").css("display", "none");
     $(".mobile_menu_overlay").css("display", "none");

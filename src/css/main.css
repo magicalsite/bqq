@@ -1914,19 +1914,11 @@ a {
 }
 
 .mobile_menu_container {
-  -ms-transform: translateX(-300px);
-      transform: translateX(-300px);
   width: 100%;
   overflow: hidden;
   z-index: 10201;
   background: #ffff;
   display: none;
-}
-
-.mobile_menu_container.loaded {
-  -ms-transform: translateX(0px);
-      transform: translateX(0px);
-  overflow: scroll;
 }
 
 .mobile_menu_container .mobile_menu_content {
@@ -1985,35 +1977,6 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #FF734C;
-}
-
-.mobile_menu_container ul li a.parent {
-  padding-right: 50px;
-  background: #3884da url("images/arrow_right.svg") right 20px center no-repeat;
-  background-size: 20px;
-}
-
-.mobile_menu_container ul li a.parent:hover {
-  background: #3c8de8 url("images/arrow_right.svg") right 20px center no-repeat;
-  background-size: 20px;
-}
-
-.mobile_menu_container ul li a.back {
-  padding-left: 50px;
-  background: #3c8de8 url("images/arrow_left.svg") left 20px center no-repeat;
-  background-size: 20px;
-  box-sizing: border-box;
-  min-height: 50px;
-}
-
-.mobile_menu_container ul li a.back:hover {
-  background: #3c8de8 url("images/arrow_left.svg") left 20px center no-repeat;
-  background-size: 20px;
-}
-
-.mobile_menu_container ul li ul.loaded {
-  -ms-transform: translateX(0px);
-      transform: translateX(0px);
 }
 
 .mobile_menu_container ul li ul.activity {

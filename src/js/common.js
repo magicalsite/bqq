@@ -48,17 +48,17 @@ $(document).ready(function () {
 
 
 $(function () {
-  $(document).on("click", ".mobile_menu_container .parent", function (e) {
-    e.preventDefault();
-    $(".mobile_menu_container .activity").removeClass("activity");
-    $(this).siblings("ul").addClass("loaded").addClass("activity");
-  });
+  // $(document).on("click", ".mobile_menu_container .parent", function (e) {
+  //   e.preventDefault();
+  //   $(".mobile_menu_container .activity").removeClass("activity");
+  //   $(this).siblings("ul").addClass("loaded").addClass("activity");
+  // });
   $(document).on("click", "#menu_close", function (e) {
     e.preventDefault();
-    $(".mobile_menu_container .activity").removeClass("activity");
-    $(this).parent().parent().removeClass("loaded");
-    $('html').removeClass('hid')
-    $(this).parent().parent().parent().parent().addClass("activity");
+    // $(".mobile_menu_container .activity").removeClass("activity");
+    // $(this).parent().parent().removeClass("loaded");
+    // $('html').removeClass('hid')
+    // $(this).parent().parent().parent().parent().addClass("activity");
     $(".mobile_menu_container").css("display", "none");
     $(".mobile_menu_overlay").css("display", "none");
   });

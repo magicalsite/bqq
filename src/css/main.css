@@ -771,7 +771,7 @@ a {
 
 @media (max-width: 991px) {
   .dishes-fixed {
-    top: -120px;
+    top: -121px;
   }
 }
 
@@ -820,10 +820,6 @@ a {
   .menu-dishes__img {
     width: 85px;
   }
-}
-
-.menu-dishes:first-child {
-  margin-left: 8%;
 }
 
 @media (max-width: 991px) {
@@ -1064,7 +1060,7 @@ a {
 /* ==================================== */
 .slider-block {
   position: relative;
-  margin-bottom: 77px;
+  margin-bottom: 51px;
 }
 
 @media (max-width: 991px) {
@@ -2029,7 +2025,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
-      justify-content: end;
+      justify-content: flex-end;
 }
 
 .mobile_menu_content .mob_login > .login {

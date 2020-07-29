@@ -4,7 +4,8 @@ var $WINDOW = $(window),
 var category;
 
 $WINDOW.on('load', function () {
-  category = $('.menu-dishes__title').offset().top;
+  category = $('.menu-dishes__title').offset().top - 17;
+  console.log(category)
 });
 
 $WINDOW.on('scroll', function () {
@@ -36,11 +37,12 @@ $(document).ready(function () {
     }]
   });
 
-  $("div.dishes").smoothDivScroll({
-    mousewheelScrolling: "allDirections",
-    manualContinuousScrolling: false,
-    touchScrolling: true,
-    visibleHotSpotBackgrounds: "always",
+
+  $('.dishes').flickity({
+    freeScroll: true,
+    prevNextButtons: false,
+    pageDots: false,
+    contain: true
   });
 });
 

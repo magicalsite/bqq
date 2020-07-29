@@ -200,14 +200,13 @@ a {
     background-color: #fff;
     padding-top: 26px;
 
-
     &-fixed {
         position: fixed;
         top: -140px;
         left: 0;
 
         @include media("<992px") {
-            top: -120px;
+            top: -121px;
         }
     }
 
@@ -248,9 +247,9 @@ a {
         }
     }
 
-    &:first-child {
-        margin-left: 8%;
-    }
+    // &:first-child {
+    //     margin-left: 20%;
+    // }
 
     @include media("<992px") {
         width: 134px;
@@ -456,7 +455,7 @@ a {
 /* ==================================== */
 .slider-block {
     position: relative;
-    margin-bottom: 77px;
+    margin-bottom: 51px;
 
     @include media("<992px") {
         margin-bottom: 18px;
@@ -601,6 +600,7 @@ a {
 .slick-dots .slick-active button {
     background: #FF734C;
 }
+
 
 /* ==================================== */
 /* ============= CARD =============== */
@@ -1259,7 +1259,7 @@ a {
 
 .mobile_menu_content .mob_login {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .mobile_menu_content .mob_login>.login {

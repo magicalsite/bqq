@@ -165,12 +165,12 @@ gulp.task('copyJqueryToJs', function () {
  */
 gulp.task('copyLibsScriptsToJs', ['copyJqueryToJs'], function () {
   return gulp.src([
-      './src/libs/smoothdivscroll/www/jss/jquery.mousewheel.min.js',
       './src/libs/slick-carousel/slick/slick.min.js', // slick slider
-      './src/libs/smoothdivscroll/www/jss/jquery-ui-1.8.23.custom.min.js',
+      // './src/libs/smoothdivscroll/www/jss/jquery-ui-1.8.23.custom.min.js',
+      // './src/libs/smoothdivscroll/www/jss/jquery.mousewheel.min.js',
+      // './src/libs/smoothdivscroll/www/jss/jquery.kinetic.js',
+      // './src/libs/smoothdivscroll/www/jss/jquery.smoothdivscroll-1.3-min.js'
 
-      './src/libs/smoothdivscroll/www/jss/jquery.kinetic.js',
-      './src/libs/smoothdivscroll/www/jss/jquery.smoothdivscroll-1.3-min.js'
     ])
     .pipe(concat('libs.js'))
     .pipe(gulp.dest('src/js'))

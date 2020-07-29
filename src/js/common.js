@@ -3,13 +3,6 @@ var $WINDOW = $(window),
   $BODY = $('body');
 var category;
 
-$('a[href^="#"]').click(function () {
-  let anchor = $(this).attr('href');
-  $('html, body').animate({
-    scrollTop: $(anchor).offset().top
-  }, 700);
-});
-
 $WINDOW.on('load', function () {
   category = $('.menu-dishes__title').offset().top;
 });
@@ -82,3 +75,11 @@ $(function () {
     });
   });
 })
+
+
+$('a[href^="#"]').click(function () {
+  let anchor = $(this).attr('href');
+  $('html, body').animate({
+    scrollTop: $(anchor).offset().top
+  }, 500);
+});

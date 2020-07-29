@@ -482,7 +482,6 @@ ul {
 /* ==================================== */
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -762,6 +761,17 @@ a {
   left: 0;
   background-color: #fff;
   padding-top: 26px;
+}
+
+.dishes-vad {
+  min-width: 100%;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow-x: scroll;
+}
+
+.dishes-vad::-webkit-scrollbar {
+  display: none;
 }
 
 .dishes-fixed {

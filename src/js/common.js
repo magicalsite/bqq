@@ -37,11 +37,39 @@ $(document).ready(function () {
     }]
   });
 
-  $('.dishes').flickity({
-    freeScroll: true,
-    prevNextButtons: false,
-    pageDots: false,
-    contain: true
+  // $('.dishes').flickity({
+  //   freeScroll: true,
+  //   prevNextButtons: false,
+  //   pageDots: false,
+  //   // cellAlign: 'left',
+  //   contain: true
+  // });
+
+  var ww = $(window).width();
+  if (ww >= 1700) {
+    sliderView = 8.5;
+  }
+  if ((ww >= 1300) && (ww < 1700)) {
+    sliderView = 7.5;
+  }
+  if ((ww >= 1000) && (ww < 1300)) {
+    sliderView = 5.5;
+  }
+  if ((ww >= 768) && (ww < 1000)) {
+    sliderView = 3.5
+  }
+  if ((ww >= 320) && (ww < 768)) {
+    sliderView = 2.5
+  }
+
+
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: sliderView,
+    spaceBetween: 0,
+    freeMode: true,
+    pagination: {
+      clickable: true,
+    },
   });
 
   $('.menu_close').on("click", function (e) {

@@ -24,7 +24,8 @@
   <link rel="manifest" href="manifest.webmanifest">
   <!--Style-->
   <link rel="stylesheet" href="css/libs.min.css?rev=@@hash">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
   <link rel="stylesheet" href="css/main.css?rev=@@hash">
   <!--Modernizr-->
   <script src="js/modernizr.min.js"></script>
@@ -147,61 +148,63 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="slider-container">
       <div class="slick-arrow"></div>
     </div>
   </div>
   <!-- category -->
-  <div class="dishes">
-    <a href="#kebab" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">шашлык <br> из свинины</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">шашлык </div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">шашлык <br>
-        из курицы</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">Caлаты</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">Caлаты</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">напитки</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">Caлаты</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">гарниры</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">соусы</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">соусы</div>
-    </a>
-    <a href="#" class="dishes__item menu-dishes">
-      <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
-      <div class="menu-dishes__title">соусы</div>
-    </a>
+  <div class="swiper-container dishes">
+    <div class="swiper-wrapper">
+      <a href="#kebab" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">шашлык <br> из свинины</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">шашлык </div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">шашлык <br>
+          из курицы</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">Caлаты</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">Caлаты</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">напитки</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">Caлаты</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">гарниры</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">соусы</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">соусы</div>
+      </a>
+      <a href="#" class="swiper-slide dishes__item menu-dishes">
+        <img class="menu-dishes__img" src="./img/menu__item-img.png" alt="Photo dish">
+        <div class="menu-dishes__title">соусы</div>
+      </a>
+    </div>
   </div>
   <!-- point and basket -->
   <div class="points">
-    <div class="container center-block">
+    <div class="container container-dop center-block">
       <div class="center-block__cards">
         <div class="salads">
           <div class="card">
@@ -586,107 +589,169 @@
       </div>
       <div class="center-block__basket">
         <div class="basket">
-          <div class="basket__title">
-            Корзина (<span class="basket__count">3</span>)
+          <div>
+            <div class="basket__title">
+              Корзина (<span class="basket__count">3</span>)
+            </div>
           </div>
-          <div class="basket__block">
-            <div class="basket__point point">
-              <button class="point__delete">
-                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
-                </svg>
-              </button>
-              <h3 class="point__title">Шашлык из свинины с гарниром</h3>
-              <div class="point__info-price">
-                <div class="card__number point__number">
-                  <button class="card__number-btn card__number-minus point__button">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="16" height="16" rx="8" fill="#FF734C" />
-                      <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
-                    </svg>
-                  </button>
-                  <div class="card__number-total point__total">10</div>
-                  <button class="card__number-btn card__number-plus point__button">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="16" height="16" rx="8" fill="#FF734C" />
-                      <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
-                    </svg>
-                  </button>
+          <div>
+            <div class="basket__block">
+              <div class="basket__point point">
+                <button class="point__delete">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                  </svg>
+                </button>
+                <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+                <div class="point__info-price">
+                  <div class="card__number point__number">
+                    <button class="card__number-btn card__number-minus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                      </svg>
+                    </button>
+                    <div class="card__number-total point__total">10</div>
+                    <button class="card__number-btn card__number-plus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card__price price basket__price">
+                    <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
                 </div>
-                <div class="card__price price basket__price">
-                  <div class="price__common price__acting"><span class="line_through">12.90</span><span class="line_through">BYN</span></div>
-                  <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+              </div>
+              <div class="basket__point point">
+                <button class="point__delete">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                  </svg>
+                </button>
+                <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+                <p class="point__extra">- лук</p>
+                <div class="point__info-price">
+                  <div class="card__number point__number">
+                    <button class="card__number-btn card__number-minus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                      </svg>
+                    </button>
+                    <div class="card__number-total point__total">10</div>
+                    <button class="card__number-btn card__number-plus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card__price price basket__price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="basket__point point">
+                <button class="point__delete">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                  </svg>
+                </button>
+                <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+                <div class="point__info-price">
+                  <div class="card__number point__number">
+                    <button class="card__number-btn card__number-minus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                      </svg>
+                    </button>
+                    <div class="card__number-total point__total">10</div>
+                    <button class="card__number-btn card__number-plus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card__price price basket__price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="basket__point point">
+                <button class="point__delete">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                  </svg>
+                </button>
+                <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+                <div class="point__info-price">
+                  <div class="card__number point__number">
+                    <button class="card__number-btn card__number-minus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                      </svg>
+                    </button>
+                    <div class="card__number-total point__total">10</div>
+                    <button class="card__number-btn card__number-plus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card__price price basket__price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="basket__point point">
+                <button class="point__delete">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
+                  </svg>
+                </button>
+                <h3 class="point__title">Шашлык из свинины с гарниром</h3>
+                <div class="point__info-price">
+                  <div class="card__number point__number">
+                    <button class="card__number-btn card__number-minus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
+                      </svg>
+                    </button>
+                    <div class="card__number-total point__total">10</div>
+                    <button class="card__number-btn card__number-plus point__button">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="16" height="16" rx="8" fill="#FF734C" />
+                        <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="card__price price basket__price">
+                    <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="basket__point point">
-              <button class="point__delete">
-                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
-                </svg>
-              </button>
-              <h3 class="point__title">Шашлык из свинины с гарниром</h3>
-              <p class="point__extra">- лук</p>
-              <div class="point__info-price">
-                <div class="card__number point__number">
-                  <button class="card__number-btn card__number-minus point__button">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="16" height="16" rx="8" fill="#FF734C" />
-                      <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
-                    </svg>
-                  </button>
-                  <div class="card__number-total point__total">10</div>
-                  <button class="card__number-btn card__number-plus point__button">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="16" height="16" rx="8" fill="#FF734C" />
-                      <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
-                    </svg>
-                  </button>
-                </div>
-                <div class="card__price price basket__price">
-                  <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
-                </div>
-              </div>
+          </div>
+          <div>
+            <div class="basket__line"></div>
+            <div class="basket__sum"><span class="basket__discount-text">Сумма заказа</span><span>38.70
+                <span>BYN</span></span>
             </div>
-            <div class="basket__point point">
-              <button class="point__delete">
-                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 0.470571L7.53622 0.0078125L4 3.53729L0.463765 0.0078125L0 0.470571L3.53624 4.00007L0 7.5293L0.463765 7.99205L4 4.46282L7.53622 7.99205L8 7.5293L4.46352 4.00007L8 0.470571Z" fill="#C4C4C4" stroke="#C4C4C4" stroke-width="0.5" />
-                </svg>
-              </button>
-              <h3 class="point__title">Шашлык из свинины с гарниром</h3>
-              <div class="point__info-price">
-                <div class="card__number point__number">
-                  <button class="card__number-btn card__number-minus point__button">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="16" height="16" rx="8" fill="#FF734C" />
-                      <path d="M12.0007 8H4.00073V9.2H12.0007V8Z" fill="white" />
-                    </svg>
-                  </button>
-                  <div class="card__number-total point__total">10</div>
-                  <button class="card__number-btn card__number-plus point__button">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="16" height="16" rx="8" fill="#FF734C" />
-                      <path d="M12.0007 7.61905H8.38168V4H7.61978V7.61905H4.00073V8.38095H7.61978V12H8.38168V8.38095H12.0007V7.61905Z" fill="white" />
-                    </svg>
-                  </button>
-                </div>
-                <div class="card__price price basket__price">
-                  <div class="price__common price__new"><span>12.90</span><span>BYN</span></div>
-                </div>
-              </div>
+            <div class="basket__discount"><span class="basket__discount-text">Скидка</span><span>38.70
+                <span>BYN</span></span></div>
+            <div class="basket__result"><span class="basket__result-text">итого</span><span>38.70 <span>BYN</span></span>
             </div>
+            <a href="#" class="basket__button button">Оформить заказ</a>
+            <button class="basket__clear">Очистить корзину</button>
           </div>
-          <div class="basket__line"></div>
-          <div class="basket__sum"><span class="basket__discount-text">Сумма заказа</span><span>38.70
-              <span>BYN</span></span>
-          </div>
-          <div class="basket__discount"><span class="basket__discount-text">Скидка</span><span>38.70
-              <span>BYN</span></span></div>
-          <div class="basket__result"><span class="basket__result-text">итого</span><span>38.70 <span>BYN</span></span>
-          </div>
-          <a href="#" class="basket__button button">Оформить заказ</a>
-          <button class="basket__clear">Очистить корзину</button>
         </div>
       </div>
     </div>
@@ -759,7 +824,8 @@
   <!--FOOTER end-->
   <script src="js/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
   <script src="js/common.js?rev=@@hash"></script>
 </body>
 

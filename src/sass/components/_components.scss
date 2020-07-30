@@ -62,9 +62,10 @@ a {
 }
 
 .basket__button {
-    display: flex;
-    margin: 0 auto;
     margin-bottom: 28px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .basket__clear {
@@ -220,9 +221,9 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 180px;
-    padding: 8px 30px 16px;
-    margin-right: 24px;
+    // width: 180px !important;
+    // padding: 8px 30px 16px;
+    // margin-right: 24px;
     text-align: center;
     cursor: pointer;
 
@@ -248,12 +249,12 @@ a {
     }
 
     // &:first-child {
-    //     margin-left: 20%;
+    //     left: 20%;
     // }
 
     @include media("<992px") {
-        width: 134px;
-        margin-right: 8px;
+        // width: 134px !important;
+        // margin-right: 0px;
         padding: 11px 13px 17px;
     }
 }
@@ -270,8 +271,15 @@ a {
                 margin-right: 0;
             }
 
+
             &.active a {
                 color: #FF734C;
+            }
+
+            &:nth-child(3) {
+                @include media("<430px") {
+                    margin-right: 0;
+                }
             }
 
             @include media("<1368px") {
@@ -287,6 +295,16 @@ a {
             &:hover {
                 color: #FF734C;
             }
+
+            @include media("<992px") {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+
+        @include media("<453px") {
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
@@ -302,12 +320,26 @@ a {
     }
 
     @include media("<992px") {
-        display: none;
+        padding-top: 27px;
     }
 }
 
 .footer-menu__items li.menu__item {
     margin-right: 64px;
+
+    &:last-child {
+        @include media("<500px") {
+            margin-bottom: 0;
+        }
+    }
+
+    @include media("<992px") {
+        margin-right: 24px;
+    }
+
+    @include media("<500px") {
+        margin-bottom: 3px;
+    }
 }
 
 /* ==================================== */
@@ -317,7 +349,7 @@ a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 304px;
+    left: 16vw;
 
     &__title {
         font-size: 64px;
@@ -325,7 +357,7 @@ a {
         color: #fff;
         margin-bottom: 40px;
 
-        @include media("<1368px") {
+        @include media("<1590px") {
             margin-bottom: 10px;
         }
 
@@ -343,6 +375,10 @@ a {
         color: #fff;
         max-width: 499px;
         margin-bottom: 85px;
+
+        @include media("<1590px") {
+            margin-bottom: 45px;
+        }
 
         @include media("<1368px") {
             margin-bottom: 20px;
@@ -364,7 +400,7 @@ a {
     }
 
     @include media("<1368px") {
-        left: 180px;
+        left: 100px;
     }
 
     @include media("<992px") {
@@ -396,19 +432,36 @@ a {
         flex-wrap: wrap;
     }
 
-    &__cards>div:last-child {
-        margin-bottom: 92px;
-    }
-
     &__basket {
         position: sticky;
         top: 78px;
-        max-height: 100vh;
         height: 100%;
+
+        @include media("<1590px") {
+            // max-height: 100vh;
+        }
+
+        @include media("<992px") {
+            flex-basis: auto;
+        }
+    }
+
+    &__cards {
+        @include media("<1590px") {
+            // flex-basis: 72%;
+        }
+
+        @include media("<992px") {
+            flex-basis: auto;
+        }
     }
 }
 
 // about company
+.info-company {
+    margin-top: 92px;
+}
+
 .about-company {
     background: #FAFAFA;
     padding: 40px;
@@ -466,11 +519,33 @@ a {
     position: relative;
 }
 
-.slick-initialized .slick-slide {
-    margin: 0px 27px;
-    width: 1334px;
+.slider-container {
+    width: 1168px;
+    margin: 0 auto;
 
     @include media(">1590px") {
+        width: 80.7vw;
+    }
+
+    @include media(">1921px") {
+        width: 1550px;
+    }
+
+    @include media("<1368px") {
+        width: 860px;
+    }
+}
+
+.slick-initialized .slick-slide {
+    margin: 0px 27px;
+    width: 1168px;
+
+    @include media(">1590px") {
+        margin: 0px 52px;
+        width: 80.7vw;
+    }
+
+    @include media(">1921px") {
         margin: 0px 52px;
         width: 1550px;
     }
@@ -481,7 +556,7 @@ a {
 
     @include media("<1368px") {
         margin: 0px 27px;
-        width: 960px;
+        width: 860px;
     }
 
     @include media("<992px") {
@@ -492,7 +567,11 @@ a {
 .slider-item div picture>img {
     width: 100%;
     min-height: 355px;
+
     // width: 100%;
+    @include media(">1590px") {
+        height: 594px;
+    }
 }
 
 .slick-arrow,
@@ -526,8 +605,8 @@ a {
 }
 
 .slick-prev {
-    bottom: 261px;
-    left: -28px;
+    bottom: 223.5px;
+    left: -30px;
     background-image: url(../../img/prev-black.svg);
 
     &:hover {
@@ -541,14 +620,14 @@ a {
     }
 
     @include media("<1368px") {
-        bottom: 172px;
+        bottom: 177.5px;
         left: -32px;
     }
 }
 
 .slick-next {
-    bottom: 261px;
-    right: -28px;
+    bottom: 223.5px;
+    right: -30px;
     background-image: url(../../img/next-black.svg);
 
     &:hover {
@@ -562,7 +641,7 @@ a {
     }
 
     @include media("<1368px") {
-        bottom: 172px;
+        bottom: 177.5px;
         right: -32px;
     }
 }
@@ -619,12 +698,17 @@ a {
         padding: 28px 16px 21px 16px;
     }
 
+    @include media("<1590px") {
+        flex-basis: 25%;
+    }
+
     @include media("<1368px") {
-        width: 240px;
+        flex-basis: 33.3%;
         padding: 16px 16px 20px;
     }
 
     @include media("<992px") {
+        flex-basis: auto;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -1011,6 +1095,10 @@ a {
         overflow-y: auto;
         overflow-x: hidden;
 
+        @include media("<1590px") {
+            max-height: 34vh;
+        }
+
         @include media("<1368px") {
             margin-left: 9px;
             margin-right: 1px;
@@ -1020,6 +1108,10 @@ a {
     @include media(">1590px") {
         width: 310px;
         padding: 36px 16px 20px;
+    }
+
+    @include media("<1590px") {
+        // min-height: 92vh;
     }
 
     @include media("<1368px") {
@@ -1256,7 +1348,7 @@ a {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    bottom: 43px;
+    bottom: 80px;
     left: 16px;
     z-index: 9999;
 

@@ -46,3 +46,11 @@ body {
     max-width: 768px;
   }
 }
+
+.container-dop {
+  @include media("<1590px") {
+    margin: 0;
+    padding: 0 16px;
+    max-width: 100%;
+  }
+}
